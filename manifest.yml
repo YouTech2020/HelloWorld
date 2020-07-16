@@ -1,0 +1,6 @@
+applications:
+- name : helloworld460
+  memory:  256M
+  disk_quota: 256M
+  command : node index.js
+  buildpack : nodejs_buildpack
